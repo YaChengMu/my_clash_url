@@ -8,7 +8,6 @@ proxies:
   - {name: _JP_日本, server: 43.206.239.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _US_美国, server: 140.99.48.24, port: 57102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _US_美国 2, server: 192.74.231.180, port: 49202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: 139.162.59.135, port: 443, type: ss, cipher: aes-128-gcm, password: tg@herhero6, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: true}, udp: true}
   - {name: _US_美国 3, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: _AU_澳大利亚, server: wangqifei.tk, port: 59973, type: trojan, password: S1k6yPgFhc, skip-cert-verify: true, udp: true}
   - {name: _JP_日本 2, server: japan.tltvpn.xyz, port: 443, type: trojan, password: 022e3c2a-f4bf-423e-8c05-7f26fff93674, sni: dl.kgvn.garenanow.com, skip-cert-verify: true, udp: true}
@@ -18,7 +17,6 @@ proxies:
   - {name: _US_美国 4, server: 137.175.18.88, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _KR_韩国, server: 54.180.126.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _KR_韩国 2, server: 3.34.135.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _SG_新加坡 3, server: 172.104.61.211, port: 8080, type: ss, cipher: aes-128-gcm, password: bDqZ3kf6ft59, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: true}, udp: true}
   - {name: _US_美国 5, server: 137.175.18.89, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _US_美国 6, server: 38.40.219.180, port: 53362, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _JP_日本 3, server: 52.194.213.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
