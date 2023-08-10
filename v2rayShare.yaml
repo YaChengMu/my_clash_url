@@ -5,111 +5,111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 _JP_日本, server: 18.179.118.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 _JP_日本 2, server: 3.113.7.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 _SG_新加坡, server: 13.229.240.227, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 _SG_新加坡 2, server: 3.0.147.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 _SG_新加坡 3, server: 54.255.112.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 _JP_日本 3, server: 00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win, port: 12356, type: vmess, uuid: c7b5b614-04b8-4a8d-8d9e-88b431b9fa8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 _KR_韩国, server: 221.150.109.7, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: gonggao03.xingyunwu.top, port: 50004, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
-  - {name: 🇰🇷 _KR_韩国 2, server: 43.201.7.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: f549e1be-86fa-4bb0-a318-7e2c6b8282c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
-  - {name: 🇺🇸 _US_美国, server: 142.4.112.19, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国 2, server: 52.26.147.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国 3, server: 142.4.102.185, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/282517202535, headers: {Host: www.36222793.xyz}}}
-  - {name: 🇺🇸 _US_美国 4, server: 137.175.18.81, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1690866578068, headers: {Host: www.66273264.xyz}}}
-  - {name: 🇺🇸 _US_美国 5, server: cdn.anycast.eu.org, port: 443, type: vmess, uuid: e3a37909-487c-4748-8ba4-945290267018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: e3a37909, headers: {Host: dd2.1808.cf}}}
-  - {name: 🇰🇷 _KR_韩国 3, server: 43.202.42.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: u-s01.xingyunwu.top, port: 50028, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
-  - {name: _CN_中国, server: s-g01.xingyunwu.top, port: 50036, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: t-wn02.xingyunwu.top, port: 50054, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦, server: vip.impervasec.info, port: 2095, type: vmess, uuid: 4bcd63da-c887-4766-d61f-5d4097796abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vip.impervasec.info}}}
-  - {name: 🇺🇸 _US_美国 6, server: 74.217.182.119, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西, server: 172.64.85.189, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 2, server: 172.67.103.86, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国 7, server: 171.22.116.54, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1691318318420, headers: {Host: www.83993175.xyz}}}
-  - {name: 🇬🇧 _GB_英国, server: uk23.ulifeai.com, port: 443, type: vmess, uuid: 3e9165fe-9145-4ff2-a058-56678d85ca6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /swoole, headers: {Host: uk23.ulifeai.com}}}
-  - {name: 🇬🇧 _GB_英国 2, server: 8.208.30.41, port: 443, type: vmess, uuid: 3e9165fe-9145-4ff2-a058-56678d85ca6b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /swoole, headers: {Host: uk23.ulifeai.com}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 3, server: 172.67.237.176, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _FR_法国->🇺🇸_US_美国, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇫🇷 _FR_法国, server: 195.154.118.40, port: 443, type: ssr, cipher: aes-256-ctr, password: NewBypasser2023, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: cdn.appsflyer.c%�}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: sd.nfsq.me, port: 33351, type: ss, cipher: aes-128-gcm, password: 95869ffd-78ae-4a3f-9531-cb2b4e15ffca}
-  - {name: 🇺🇸 _US_美国 8, server: www.gov.tw, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 4, server: 162.159.255.119, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.21.79.246, port: 443, type: trojan, password: e35026da-e985-49ca-b43b-276062a535a6, sni: notdirect.howhealthyistoomajreally.homes, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 9, server: 34.217.75.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 5, server: 172.64.194.98, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇱🇻 _LV_拉脱维亚, server: 185.135.86.173, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 6, server: 172.64.106.104, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 7, server: 172.67.237.73, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 8, server: 172.64.104.143, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 9, server: 172.67.128.37, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙, server: 4p2t01.abzoones.xyz, port: 36881, type: vmess, uuid: f549e1be-86fa-4bb0-a318-7e2c6b8282c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 10, server: 172.64.175.26, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 11, server: 172.67.212.128, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 12, server: 141.101.122.190, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇨🇦 _CA_加拿大, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 11, server: 34.223.228.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国 12, server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /GdtYWlsLmNvbSJ9LCJjb3V, headers: {Host: newyork.yj2022.gq}}}
-  - {name: 🇺🇸 _US_美国 13, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: f467f4da-2226-448d-a30d-463ef10548ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}}
+  - {name: 🇸🇬 _SG_新加坡, server: 13.250.65.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国, server: 108.186.116.182, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 45.153.203.85, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 2, server: 45.92.160.138, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 3, server: 38.63.0.80, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2, server: 45.153.203.83, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 4, server: 137.175.52.19, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 5, server: 142.4.99.88, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 6, server: 142.4.106.242, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 7, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 8, server: 45.136.235.10, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 9, server: 142.4.118.227, port: 48902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 10, server: 192.74.234.88, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 11, server: 137.175.18.90, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 12, server: 142.4.112.1, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 13, server: 137.175.52.17, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 14, server: 142.4.97.71, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 15, server: 137.175.1.13, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: us-08-cz2dg2.ferryhwp8ebm.com, port: 7308, type: trojan, password: 97d557df-6f6a-5bad-9483-600aba02da3a, sni: us-08-650.duuk.info, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 16, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 17, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 18, server: 129.146.247.135, port: 32562, type: vmess, uuid: c24b6170-ba54-4b2b-92a7-c04740bfc7bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国 3, server: 45.153.203.87, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 19, server: 140.99.148.53, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 156.225.67.91, port: 48821, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 _KR_韩国, server: 3.39.238.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国 20, server: 104.17.166.94, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 21, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}}
+  - {name: 🇺🇸 _US_美国 22, server: 137.175.1.6, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇳🇱 _NL_荷兰, server: 154.85.1.128, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1684580752213}}
+  - {name: 🇺🇸 _US_美国 23, server: 163.123.192.145, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 24, server: 104.24.215.90, port: 8880, type: vmess, uuid: d18cf3e0-e5fe-4f89-9d36-e4688788983b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}}
+  - {name: 🇫🇷 _FR_法国->🇳🇱_NL_荷兰, server: 156.249.18.138, port: 47393, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: video.tiktokuu.xyz, port: 695, type: ss, cipher: rc4-md5, password: BoomCloud2020}
+  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: video.tiktokuu.xyz, port: 696, type: ss, cipher: rc4-md5, password: BoomCloud2020}
+  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: video.tiktokuu.xyz, port: 748, type: ss, cipher: rc4-md5, password: BoomCloud2020}
+  - {name: 🇺🇸 _US_美国 25, server: 198.41.208.37, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇸🇬 _SG_新加坡 2, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 _JP_日本, server: 3.112.43.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国 26, server: 104.24.142.6, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 27, server: 104.25.43.13, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 28, server: 104.19.98.203, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 29, server: 162.159.255.197, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 30, server: 172.67.56.76, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 31, server: 104.19.228.233, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇷 _CR_哥斯达黎加, server: 190.93.247.63, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 32, server: 162.159.141.110, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 33, server: 104.17.62.243, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 _JP_日本 2
       - 🇸🇬 _SG_新加坡
-      - 🇸🇬 _SG_新加坡 2
-      - 🇸🇬 _SG_新加坡 3
-      - 🇯🇵 _JP_日本 3
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇰🇷 _KR_韩国 2
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
-      - 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国
       - 🇺🇸 _US_美国
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇰🇷 _KR_韩国 3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - _CN_中国
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
       - 🇺🇸 _US_美国 7
-      - 🇬🇧 _GB_英国
-      - 🇬🇧 _GB_英国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _FR_法国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇱🇻 _LV_拉脱维亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
       - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇨🇦 _CA_加拿大
       - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 12
       - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 23
+      - 🇺🇸 _US_美国 24
+      - 🇫🇷 _FR_法国->🇳🇱_NL_荷兰
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 25
+      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 26
+      - 🇺🇸 _US_美国 27
+      - 🇺🇸 _US_美国 28
+      - 🇺🇸 _US_美国 29
+      - 🇺🇸 _US_美国 30
+      - 🇺🇸 _US_美国 31
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇷 _CR_哥斯达黎加
+      - 🇺🇸 _US_美国 32
+      - 🇺🇸 _US_美国 33
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,56 +125,56 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 _JP_日本 2
       - 🇸🇬 _SG_新加坡
-      - 🇸🇬 _SG_新加坡 2
-      - 🇸🇬 _SG_新加坡 3
-      - 🇯🇵 _JP_日本 3
-      - 🇰🇷 _KR_韩国
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇰🇷 _KR_韩国 2
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
-      - 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国
       - 🇺🇸 _US_美国
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇰🇷 _KR_韩国 3
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - _CN_中国
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
       - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
       - 🇺🇸 _US_美国 7
-      - 🇬🇧 _GB_英国
-      - 🇬🇧 _GB_英国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _FR_法国->🇺🇸_US_美国
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
       - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇱🇻 _LV_拉脱维亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
       - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇨🇦 _CA_加拿大
       - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 12
       - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国 3
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
+      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 23
+      - 🇺🇸 _US_美国 24
+      - 🇫🇷 _FR_法国->🇳🇱_NL_荷兰
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 25
+      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 26
+      - 🇺🇸 _US_美国 27
+      - 🇺🇸 _US_美国 28
+      - 🇺🇸 _US_美国 29
+      - 🇺🇸 _US_美国 30
+      - 🇺🇸 _US_美国 31
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
+      - 🇨🇷 _CR_哥斯达黎加
+      - 🇺🇸 _US_美国 32
+      - 🇺🇸 _US_美国 33
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -227,12 +227,11 @@ rules:
  - DOMAIN,app.adjust.com,🎯 全球直连
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN,rewards.hypixel.net,🎯 全球直连
- - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
- - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
  - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+ - DOMAIN-KEYWORD,adservice,🛑 全球拦截
  - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
  - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
@@ -1927,7 +1926,6 @@ rules:
  - DOMAIN-SUFFIX,aiv-cdn.net,🚀 节点选择
  - DOMAIN-SUFFIX,aiv-delivery.net,🚀 节点选择
  - DOMAIN-SUFFIX,amazon.jobs,🚀 节点选择
- - DOMAIN-SUFFIX,amazontools.com,🚀 节点选择
  - DOMAIN-SUFFIX,amazonuniversity.jobs,🚀 节点选择
  - DOMAIN-SUFFIX,amazonvideo.com,🚀 节点选择
  - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
@@ -2114,7 +2112,6 @@ rules:
  - IP-CIDR,192.173.64.0/18,🚀 节点选择,no-resolve
  - IP-CIDR,198.38.96.0/19,🚀 节点选择,no-resolve
  - IP-CIDR,198.45.48.0/20,🚀 节点选择,no-resolve
- - IP-CIDR,203.75.84.0/24,🚀 节点选择,no-resolve
  - IP-CIDR,207.45.72.0/22,🚀 节点选择,no-resolve
  - IP-CIDR,208.75.76.0/22,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,dmc.nico,🚀 节点选择
@@ -2652,7 +2649,6 @@ rules:
  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
  - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
- - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
@@ -2973,6 +2969,130 @@ rules:
  - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
  - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
+ - DOMAIN-KEYWORD,announce,🎯 全球直连
+ - DOMAIN-KEYWORD,torrent,🎯 全球直连
+ - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-KEYWORD,announce,🎯 全球直连
+ - DOMAIN-KEYWORD,torrent,🎯 全球直连
+ - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-SUFFIX,52pt.site,🎯 全球直连
+ - DOMAIN-SUFFIX,aidoru-online.me,🎯 全球直连
+ - DOMAIN-SUFFIX,alpharatio.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+ - DOMAIN-SUFFIX,anthelion.me,🎯 全球直连
+ - DOMAIN-SUFFIX,asiancinema.me,🎯 全球直连
+ - DOMAIN-SUFFIX,audiences.me,🎯 全球直连
+ - DOMAIN-SUFFIX,avgv.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,avistaz.to,🎯 全球直连
+ - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,beyond-hd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,bibliotik.me,🎯 全球直连
+ - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
+ - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,btschool.club,🎯 全球直连
+ - DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,byr.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,ccfbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,cgpeers.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemageddon.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinematik.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemaz.to,🎯 全球直连
+ - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+ - DOMAIN-SUFFIX,concertos.live,🎯 全球直连
+ - DOMAIN-SUFFIX,dicmusic.club,🎯 全球直连
+ - DOMAIN-SUFFIX,discfan.net,🎯 全球直连
+ - DOMAIN-SUFFIX,dxdhd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,eastgame.org,🎯 全球直连
+ - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+ - DOMAIN-SUFFIX,et8.org,🎯 全球直连
+ - DOMAIN-SUFFIX,exoticaz.to,🎯 全球直连
+ - DOMAIN-SUFFIX,extremlymtorrents.ws,🎯 全球直连
+ - DOMAIN-SUFFIX,filelist.io,🎯 全球直连
+ - DOMAIN-SUFFIX,gainbound.net,🎯 全球直连
+ - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+ - DOMAIN-SUFFIX,gfxpeers.net,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-space.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-torrents.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd4.xyz,🎯 全球直连
+ - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdarea.co,🎯 全球直连
+ - DOMAIN-SUFFIX,hdatmos.club,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbd.us,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdcity.city,🎯 全球直连
+ - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hdfans.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdpost.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hdroute.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hdstreet.club,🎯 全球直连
+ - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdupt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+ - DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
+ - DOMAIN-SUFFIX,j99.info,🎯 全球直连
+ - DOMAIN-SUFFIX,joyhd.net,🎯 全球直连
+ - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+ - DOMAIN-SUFFIX,karagarga.in,🎯 全球直连
+ - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+ - DOMAIN-SUFFIX,landof.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lemonhd.org,🎯 全球直连
+ - DOMAIN-SUFFIX,lztr.me,🎯 全球直连
+ - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+ - DOMAIN-SUFFIX,moecat.best,🎯 全球直连
+ - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+ - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
+ - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
+ - DOMAIN-SUFFIX,nicept.net,🎯 全球直连
+ - DOMAIN-SUFFIX,npupt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+ - DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
+ - DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
+ - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+ - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+ - DOMAIN-SUFFIX,pornbits.net,🎯 全球直连
+ - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+ - DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+ - DOMAIN-SUFFIX,ptsbao.club,🎯 全球直连
+ - DOMAIN-SUFFIX,pttime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,pussytorrents.org,🎯 全球直连
+ - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+ - DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
+ - DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
+ - DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
+ - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+ - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentday.com,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentleech.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentseeds.org,🎯 全球直连
+ - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+ - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
+ - DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
@@ -2987,10 +3107,6 @@ rules:
  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
- - DOMAIN-SUFFIX,doh.pub,🎯 全球直连
- - DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
- - DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
- - IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
  - DOMAIN-SUFFIX,115.com,🎯 全球直连
  - DOMAIN-SUFFIX,12306.com,🎯 全球直连
@@ -3055,7 +3171,6 @@ rules:
  - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
  - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
  - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
- - DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
  - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
  - DOMAIN-SUFFIX,fang.com,🎯 全球直连
  - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
