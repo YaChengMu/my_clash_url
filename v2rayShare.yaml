@@ -5,47 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 _HK_香港->🇮🇳_IN_印度, server: in.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: 9d0dbf29-shcm-ec2-cdn.fjbsb.top, port: 30364, type: ss, cipher: aes-128-gcm, password: e4e60a0e-2d89-4f5d-80e7-b8f6a2d5b257}
-  - {name: 🇦🇺 _AU_澳大利亚, server: 202.139.228.198, port: 8080, type: vmess, uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/vm-tls1-tls1?ed=2048", headers: {Host: xn.changding.tech}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: ca.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
-  - {name: 🇦🇪 _AU_澳大利亚->🇦🇪_AE_阿联酋, server: 202.139.228.24, port: 13914, type: vmess, uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/vm-tls1-tls1?ed=2048", headers: {Host: db.changding.tech}}}
-  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国, server: usa.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: uk.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
-  - {name: 🇭🇰 _HK_香港->🇨🇭_CH_瑞士, server: chjs.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
-  - {name: 🇬🇧 _GB_英国, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: 🇺🇸 _US_美国, server: a3.bcbot.in, port: 8880, type: vmess, uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a3.bcbot.in}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2, server: cajs.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 2, server: 104.17.184.241, port: 80, type: vmess, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mg_cdn.yunjisuan.cf}}}
+  - {name: 🇺🇸 _US_美国, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港, server: 156.251.226.142, port: 56120, type: vmess, uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/changding-tls1?ed=2048", headers: {Host: hk-300.changding.tech}}}
+  - {name: 🇨🇦 _CA_加拿大, server: 142.171.237.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/221312281009, headers: {Host: www.23168499.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: tgju.org, port: 443, type: vmess, uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fa, headers: {Host: cdn.pokerad.fun}}}
+  - {name: _LY_利比亚, server: 197.215.140.234, port: 80, type: vmess, uuid: b82493e3-07b4-4cf2-b585-965575cfeb32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: softiri.serveirc.com}}}
   - {name: 🇪🇸 _ES_西班牙, server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 _US_美国 3, server: www.visa.com.tw, port: 8880, type: vmess, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mgthree_cdn.yunjisuan.cf}}}
-  - {name: _CN_中国, server: 12.xn--wbr85ozt0asys8qt.net, port: 20062, type: ss, cipher: chacha20-ietf-poly1305, password: a3dfbdd6-7e01-4735-9973-e3dd056c129e}
-  - {name: 🇺🇸 _US_美国->🇺🇦_UA_乌克兰, server: glasco.fx-trader.shop, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v3ra3do.wakeuptimerap.shop}}}
-  - {name: 🇺🇸 _US_美国->🇺🇦_UA_乌克兰 2, server: 104.17.2.183, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v3ra3do.wakeuptimerap.shop}}}
-  - {name: 🇺🇸 _US_美国 4, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}}
+  - {name: 🇨🇭 _CH_瑞士, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇷 _IR_伊朗, server: 79.143.84.117, port: 25477, type: vmess, uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 2, server: glaSco.fx-trAder.shop, port: 80, type: vmess, uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vvv2vayo2.everythingisreve.shop}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 _HK_香港->🇮🇳_IN_印度
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇦🇪 _AU_澳大利亚->🇦🇪_AE_阿联酋
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇭🇰 _HK_香港->🇨🇭_CH_瑞士
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
+      - 🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - _LY_利比亚
       - 🇪🇸 _ES_西班牙
-      - 🇺🇸 _US_美国 3
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇺🇦_UA_乌克兰
-      - 🇺🇸 _US_美国->🇺🇦_UA_乌克兰 2
-      - 🇺🇸 _US_美国 4
+      - 🇨🇭 _CH_瑞士
+      - 🇮🇷 _IR_伊朗
+      - 🇺🇸 _US_美国 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -61,24 +43,15 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 _HK_香港->🇮🇳_IN_印度
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇦🇪 _AU_澳大利亚->🇦🇪_AE_阿联酋
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇭🇰 _HK_香港->🇨🇭_CH_瑞士
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
+      - 🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - _LY_利比亚
       - 🇪🇸 _ES_西班牙
-      - 🇺🇸 _US_美国 3
-      - _CN_中国
-      - 🇺🇸 _US_美国->🇺🇦_UA_乌克兰
-      - 🇺🇸 _US_美国->🇺🇦_UA_乌克兰 2
-      - 🇺🇸 _US_美国 4
+      - 🇨🇭 _CH_瑞士
+      - 🇮🇷 _IR_伊朗
+      - 🇺🇸 _US_美国 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
