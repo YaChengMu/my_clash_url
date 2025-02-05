@@ -166,9 +166,9 @@ proxies:
     cipher: aes-256-cfb
   - name: 🇳🇱_NL_荷兰
     type: ss
-    server: 45.158.171.66
-    port: 8080
-    password: oZIoA69Q8yhcQV8ka3Pa3A
+    server: 91.132.94.200
+    port: 989
+    password: f8f7aCzcPKbsF8p3
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
