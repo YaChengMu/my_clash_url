@@ -15,26 +15,25 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: tg频道:@freenodedaily, server: 54.187.127.254, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: awsps0501, tfo: false}
+  - {name: tg频道:@freenodedaily, server: 35.86.251.49, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: awsps0501, tfo: false}
   - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 636, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 🇭🇰 香港4, server: 36.151.251.7, port: 8001, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港3, server: js-12f83a8c.kaiqsz.com, port: 12221, client-fingerprint: chrome, type: trojan, password: da631e61-bead-4c9c-8bd7-7bea82f736ae, sni: nkrpjj.cn, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5, server: 36.151.192.62, port: 20783, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6, server: 155.117.228.70, port: 26193, client-fingerprint: chrome, type: trojan, password: 7367d04e-4c59-4dff-a50e-12e730a09891, skip-cert-verify: true}
-  - {name: 🇹🇼 台湾, server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com, port: 3687, client-fingerprint: chrome, type: vmess, uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-O8zUIKjU25.download.microsoft.com}}
+  - {name: 🇭🇰 香港3, server: 38.147.189.50, port: 13584, client-fingerprint: chrome, type: vmess, uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港4, server: 36.151.192.62, port: 14495, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5, server: 36.151.192.62, port: 2078, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-ygDWmYQSlm.download.microsoft.com}}
   - {name: 🇯🇵 日本2, server: 137.220.191.40, port: 636, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 823e135ed103, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp7v1.lingjfjkm002.com, path: /dchlbvrbbotc, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 🇯🇵 日本3, server: 36.151.192.239, port: 41225, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本4, server: 36.151.192.239, port: 39701, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国, server: 36.151.192.239, port: 16158, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本5, server: 13.158.56.180, port: 9898, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, tfo: false}
   - {name: 🇸🇬 新加坡, server: 36.151.192.239, port: 32063, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国, server: 36.151.192.239, port: 4448, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡2, server: 36.151.192.239, port: 8117, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-O8zUIKjU25.download.microsoft.com}}
+  - {name: 🇸🇬 新加坡3, server: 54.169.45.155, port: 9898, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, tfo: false}
+  - {name: 🇺🇸 美国, server: v4.heduian.link, port: 30804, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: 202507121073737-ygDWmYQSlm.download.microsoft.com}}
   - {name: 🇺🇸 美国3, server: 36.151.192.239, port: 3596, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国4, server: 36.151.192.239, port: 32962, client-fingerprint: chrome, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇦🇹 奥地利, server: 152.53.2.128, port: 34045, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: "TG:@Enkelte_notif&&TG:@Notif_Chat", tfo: false}
-  - {name: 🇻🇳 越南, server: 103.186.154.18, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,23 +43,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -70,23 +68,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -96,23 +93,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
   - name: 📲 电报信息
     type: select
     proxies:
@@ -121,23 +117,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -146,23 +141,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -171,23 +165,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -197,23 +190,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -239,23 +231,22 @@ proxy-groups:
       - tg频道:@freenodedaily
       - 🇭🇰 香港
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇹🇼 台湾
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇰🇷 韩国
+      - 🇯🇵 日本5
       - 🇸🇬 新加坡
+      - 🇰🇷 韩国
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇺🇸 美国
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-      - 🇦🇹 奥地利
-      - 🇻🇳 越南
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
